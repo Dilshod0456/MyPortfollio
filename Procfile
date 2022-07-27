@@ -1,0 +1,1 @@
+web: gunicorn potfollio.wsgi --log-file -
