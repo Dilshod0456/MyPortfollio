@@ -14,6 +14,7 @@ class Xabarlar(models.Model):
     tell = models.CharField(max_length=13)
     email = models.EmailField()
     text = models.TextField()
+    time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.fish
+        return self.fish +'  '+self.text +'  '+str(self.time)
