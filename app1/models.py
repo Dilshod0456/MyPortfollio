@@ -16,4 +16,4 @@ class Xabarlar(models.Model):
     text = models.TextField()
 
     def __str__(self):
-        return self.fish, self.id
+        return self.fish

@@ -240,6 +240,12 @@
                 <h4 style="text-align:center">We'd love to hear from you!</h4>
             </div>
         </div>
+        <form method="post">
+            {% csrf_token %}
+            5432
+            {{ form.as_p }}
+            <input type="submit" value="Submit">
+        </form>
 
         <div class="row input-container">
             <div class="col-xs-12">
