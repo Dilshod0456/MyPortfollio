@@ -81,17 +81,17 @@ WSGI_APPLICATION = 'potfollio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
 
 
 
-        #'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        #'NAME': 'deuahogebfgum',
-        #'USER': 'vseosvpgzlkeoo',
-        #'PASSWORD':'7332f1b7fd5aabeaa7e45183790e75c35409ed08205db7863e042458b9b12dea',
-        #'HOST': 'ec2-44-199-143-43.compute-1.amazonaws.com',
-        #'PORT': '5432',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'deuahogebfgum',
+        'USER': 'vseosvpgzlkeoo',
+        'PASSWORD':'7332f1b7fd5aabeaa7e45183790e75c35409ed08205db7863e042458b9b12dea',
+        'HOST': 'ec2-44-199-143-43.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
