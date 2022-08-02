@@ -240,7 +240,7 @@
                 <h4 style="text-align:center">We'd love to hear from you!</h4>
             </div>
         </div>
-        <form method="post">
+        <form method="post" action="{% url 'app1:Home' %}">
             {% csrf_token %}
             
             <div class="row input-container">
