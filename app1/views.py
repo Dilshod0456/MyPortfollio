@@ -8,7 +8,10 @@ class HomeView(CreateView):
     template_name = 'home.html'
     form_class = XabarCreatForm
     model = Xabarlar
-
+    Msg_viewa = send_message(
+        msg_viewa
+    ) 
+    
     def form_valid(self ,form):
         Xabar = form.save(commit=False)
         Xabar.save()

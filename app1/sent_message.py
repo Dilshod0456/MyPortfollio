@@ -10,7 +10,7 @@ DEFAULT_MESSAGE = {
 
 generate_url = lambda x: "&".join([f"{k}={v}" for k,v in x.items()])
 message_tg = 'Yangi xabar:\n\n Ism: {}\n Email: {}\n Tel: {}\n Xabar: {}'
-
+msg_viewa = "Yangi kirish aniqlandi!"
 
 def send_message(message = "blank"):
 
